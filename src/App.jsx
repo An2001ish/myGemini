@@ -1,4 +1,4 @@
-import Sidebar from "./Components/SideBar/Sidebar"
+import Sidebar from "./Components/Sidebar/Sidebar"
 import "./index.css"
 
 function App() {
