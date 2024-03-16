@@ -5,7 +5,7 @@ import {assets} from "../../assets/assets"
 function Sidebar() {
   return (
     <div className='sidebar'>
-    <div><div><div></div></div></div>
+    <div><div><div><div></div></div></div></div>
     <div className="top">
       <img className='menu' src={assets.menu_icon} alt="" />
       <div className="new-chat">
