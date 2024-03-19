@@ -20,18 +20,33 @@ const Main = () => {
                 <img src={assets.compass_icon} alt="" />
             </div>
             <div className="card">
-                <p>Why das</p>
-                <img src={assets.compass_icon} alt="" />
+                <p>Briefly summarize this concept: urban planning</p>
+                <img src={assets.bulb_icon} alt="" />
             </div>
             <div className="card">
-                <p>Most visited places in 2023</p>
-                <img src={assets.compass_icon} alt="" />
+                <p>Brainstrom team bonding activities for our work retreat</p>
+                <img src={assets.message_icon} alt="" />
             </div>
             <div className="card">
-                <p>Most visited places in 2023</p>
-                <img src={assets.compass_icon} alt="" />
+                <p>Improve readability of following code</p>
+                <img src={assets.code_icon} alt="" />
             </div>
         </div>
+
+        <div className="main-bottom">
+            <div className="search-box">
+                <input type="text" placeholder='Enter a prompt here' />
+                <div>
+                    <img src={assets.gallery_icon} alt="" />
+                    <img src={assets.mic_icon} alt="" />
+                    <img src={assets.send_icon} alt="" />
+                </div>
+            </div>
+            <p className="bottom-info">
+                Gemini may display inaccurate information.
+            </p>
+        </div>
+
     </div>
     </div>
   )
