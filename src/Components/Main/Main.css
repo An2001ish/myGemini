@@ -26,11 +26,11 @@
 }
 
 .main .greet{
-    margin: 50px 0;
+    margin: 40px 0;
     font-size: 56px;
     color: #c4c7c5;
     font-weight: 500;
-    padding: 20px;
+    padding: 2px 0;
 }
 
 .main .greet span{
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap: 15px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .main .card{
@@ -178,4 +178,25 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
+}
+
+@media (max-width:600px){
+
+    .main .greet{
+        font-size: 50px;
+    }
+
+    .main-bottom input{
+        flex: none;
+        width: 150px;
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+    .search-box{
+        padding: 5px 10px;
+    }
+    .search-box div{
+        gap: 5px;
+    }
 }
