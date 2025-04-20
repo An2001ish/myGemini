@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import PropTypes from 'prop-types';
 import runChat from "../Config/Gemini";
 
 export const Context = createContext();
@@ -84,5 +85,9 @@ const ContextProvider = (props) => {
     )
 
 }
+
+ContextProvider.propTypes = {
+    children: PropTypes.node.isRequired
+};
 
 export default ContextProvider
