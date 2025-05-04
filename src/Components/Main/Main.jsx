@@ -16,7 +16,11 @@ const Main = () => {
   return (
     <div className='main'>
     <div className="nav">
-        <p>Gemini</p>
+     
+        <div className=''></div>
+        
+        <p>Lumi</p>
+        <img src={assets.logo} alt="" />
         <img src={assets.user_icon} alt="" />
     </div>
     <div className="main-container">
@@ -25,7 +29,7 @@ const Main = () => {
         ?<>
         <div className="greet">
             <p><span>Hello, Anish.</span></p>
-            <p>How can I help you today?</p>
+            <p>Ready for a quick search?</p>
         </div>
         <div className="cards">
             <div className="card">
@@ -77,7 +81,7 @@ const Main = () => {
                 </div>
             </div>
             <p className="bottom-info">
-                Gemini may display inaccurate information.
+               Lumi can be dumb sometimes.
             </p>
         </div>
 
